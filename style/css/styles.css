@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://c.wallhere.com/photos/cb/2e/Studio_Ghibli_Porco_Rosso_screen_shot-2189817.jpg!d');
+    background-size: cover; /* Ensure the background covers the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Position the "No" button absolutely within body */
+#noButton {
+    position: absolute;
+    margin-left: 150px;
+    transition: 0.5s;
+    /* Smooth movement */
+}
+
+#yesButton {
+    position: absolute;
+    margin-right: 150px;
+    /* Smooth movement */
+}
+
+.header_text {
+    font-family: 'Nunito';
+    font-size: 70px;
+    font-weight: bold;
+    color: beige; /* Change text color to beige */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-shadow: 0 0 10px black; /* Add a black glow effect */
+}
+
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+    /* optional: adds some space between the buttons */
+}
+
+.btn {
+    background-color: #FFB6C1;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: 2px solid #FF69B4; /* Add a border */
+    border-radius: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease; /* Include border-color in transition */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+
+.btn:hover {
+    background-color: #FF69B4; /* Change background color on hover */
+    color: #FFFFFF; /* Change text color on hover */
+    border-color: #FF1493; /* Change border color on hover */
+}
+
+.gif_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 90px;
+}
